@@ -7,6 +7,10 @@ Instalacion:
 git clone https://github.com/John-W1ck/auto-apt.git
 
 cd auto-apt
+ 
+Como root:
+
+sudo su
 
 chmod 777 install.sh
 
