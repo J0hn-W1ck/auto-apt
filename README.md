@@ -4,19 +4,15 @@ Su instalacion es muy simple. si tiene conocimientos sobre los comandos usted pe
 
 Instalacion:
 
-git clone https://github.com/John-W1ck/auto-apt.git
+sudo git clone https://github.com/John-W1ck/auto-apt.git
 
 cd auto-apt
  
-Como root:
-
-sudo su
-
-chmod 777 install.sh
+sudo chmod 777 install.sh
 
 ./install.sh
 
-auto.apt
+sudo auto.apt
 
 Demo: 
 
