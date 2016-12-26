@@ -12,8 +12,9 @@ sudo chmod 777 install.sh
 
 sudo ./install.sh
 
-sudo auto.apt
+sudo auto-apt
 
 Demo: 
 
 https://www.youtube.com/watch?v=nOGyBJzHC1o&t=1s
+
