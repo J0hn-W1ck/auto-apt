@@ -11,7 +11,6 @@ echo -e "\e[1;34https://www.facebook.com/profile.php?id=100014284386639\e[0m  : 
 echo -e "\e[1;32mDIA :\e[0m $(date +%A;) \e[1;32mFECHA :\e[0m $(date +%d/%m/%Y;) \e[1;32mHORA :\e[0m $(date +%T;)"
 echo -e "\e[1;32mUsuario :\e[0m" $(whoami;)
 echo
-sudo su
 {
     bar=" []*********************************************************** "
     barlength=${#bar}
