@@ -27,13 +27,13 @@ clear
 echo -e "\e[1;32m*******************************\e[0m"
 echo -e "\e[1;32m** ACTUALIZANDO SOURCES.LIST **\e[0m"
 echo -e "\e[1;32m*******************************\e[0m"
-apt-get update 2> /dev/null
+sudo apt-get update 2> /dev/null
 clear
 echo
 echo -e "\e[1;32m***************************************************************\e[0m"
 echo -e "\e[1;32m** Actualizando el sistema, seleccione\e[0m  S/n \e[1;32mpara continuar.. **\e[0m"
 echo -e "\e[1;32m***************************************************************\e[0m"
-apt-get -y upgrade
+sudo apt-get -y upgrade
 clear
 echo
 echo -e "\e[1;32m****************************\e[0m"
@@ -46,7 +46,7 @@ los paquetes más importantes a costa de los menos importantes, si es necesario.
 Por lo tanto, el comando apt-get dist-upgrade en realidad puede borrar algunos 
 paquetes en casos raros pero necesarias.\e[0m"
 sleep 1
-apt-get -y dist-upgrade
+sudo apt-get -y dist-upgrade
 clear
 echo
 echo -e "\e[1;32m**********************************\e[0m"
@@ -70,28 +70,28 @@ echo -e "\e[1;32m*********************************************\e[0m"
 echo -e "\e[1;32m** Removiendo las dependencias incumplidas **\e[0m"
 echo -e "\e[1;32m*********************************************\e[0m"
 sleep 01
-apt-get -y autoremove
+sudo apt-get -y autoremove
 clear
 echo
 echo -e "\e[1;32m**************************\e[0m"
 echo -e "\e[1;32m** Ejecutando autoclean **\e[0m"
 echo -e "\e[1;32m**************************\e[0m"
 sleep 01
-apt-get -y autoclean
+sudo apt-get -y autoclean
 clear
 echo
 echo -e "\e[1;32m******************************************\e[0m"
 echo -e "\e[1;32m** ACTUALIZANDO SOURCES.LIST NUEVAMENTE **\e[0m"
 echo -e "\e[1;32m******************************************\e[0m"
 sleep 01
-apt-get update 2> /dev/null
+sudo apt-get update 2> /dev/null
 clear
 echo
 echo -e "\e[1;32m*****************************\e[0m"
 echo -e "\e[1;32m** Instalando dependencias **\e[0m"
 echo -e "\e[1;32m*****************************\e[0m"
 sleep 01
-apt-get -f -y install
+sudo apt-get -f -y install
 clear
 echo
 echo -e "\e[1;32m*************************\e[0m"
