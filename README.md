@@ -10,7 +10,7 @@ cd auto-apt
  
 sudo chmod 777 install.sh
 
-./install.sh
+sudo ./install.sh
 
 sudo auto.apt
 
