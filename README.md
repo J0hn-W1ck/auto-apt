@@ -10,6 +10,8 @@ cd auto-apt
 
 chmod 777 install.sh
 
+./install.sh
+
 auto.apt
 
 Demo: 
