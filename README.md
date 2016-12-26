@@ -5,6 +5,7 @@ Su instalacion es muy simple. si tiene conocimientos sobre los comandos usted pe
 Instalacion:
 
 git clone https://github.com/John-W1ck/auto-apt.git
+
 cd auto-apt
 
 chmod 777 install.sh
