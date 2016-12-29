@@ -31,9 +31,9 @@ echo -e "\e[1;32m*******************************\e[0m"
 sudo apt-get update 2> /dev/null
 clear
 echo
-echo -e "\e[1;32m***************************************************************\e[0m"
-echo -e "\e[1;32m** Actualizando el sistema, seleccione\e[0m  S/n \e[1;32mpara continuar.. **\e[0m"
-echo -e "\e[1;32m***************************************************************\e[0m"
+echo -e "\e[1;32m*****************************\e[0m"
+echo -e "\e[1;32m** Actualizando el sistema **\e[0m"
+echo -e "\e[1;32m*****************************\e[0m"
 sudo apt-get -y upgrade
 clear
 echo
